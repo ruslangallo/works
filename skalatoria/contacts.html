@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Контакты | Скалатория</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<!-- Styles-->
+		<link rel="stylesheet" type="text/css" href="css/vendor.min.css" media="all">
+		<link rel="stylesheet" type="text/css" href="css/style.min.css" media="all">
+		<!-- Scripts-->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	</head>
+	<body class="fuelux contacts">
+		<header>
+			<nav role="banner" class="navbar navbar-default navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="btn btn-default-2 btn-p-1 navbar-toggle navbar-left collapsed hidden-xs"><span class="text-bar">Меню</span><i class="fa fa-bars fa-lg"></i><span class="sr-only">Toggle navigation</span></button>
+						<button type="button" data-toggle="modal" data-target="#modal-navbar" aria-expanded="false" aria-controls="navbar" class="btn btn-default-2 btn-circle navbar-toggle navbar-left collapsed hidden-sm hidden-md hidden-lg"><i class="fa fa-bars fa-lg"></i><span class="sr-only">Toggle navigation</span></button><a href="index.html" class="navbar-brand">
+							<div class="logo"></div></a><a href="index.html" class="navbar-brand navbar-brand-text hidden-xs hidden-sm hidden-md">
+							<div class="logo-name"></div></a>
+					</div>
+					<!-- .site-branding-->
+					<div id="navbar" class="collapse navbar-collapse hidden-xs">
+						<ul class="nav navbar-nav">
+							<li class="dropdown"><a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle"><span>О нас</span><span><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="about-climbing-wall.html">О скалодроме</a></li>
+									<li><a href="about-team.html">Команда</a></li>
+									<li><a href="about-gallery.html">Галерея</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"><a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle"><span>Скалодром</span><span><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="info-first-time.html">Первый раз</a></li>
+									<li><a href="info-climbing.html">Скалолазание</a></li>
+									<li><a href="info-training.html">Тренировки</a></li>
+									<li><a href="info-services-and-prices.html">Услуги и цены</a></li>
+									<li><a href="info-schedule.html">Расписание</a></li>
+									<li><a href="info-rules-and-safety.html">Правила и Техника безопасности</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"><a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle"><span>События</span><span><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="archive-events.html">Все события</a></li>
+									<li><a href="events-competitions.html">Соревнования</a></li>
+									<li><a href="events-travels.html">Путешествия</a></li>
+									<li><a href="events-reports.html">Отчеты</a></li>
+								</ul>
+							</li>
+							<li><a href="archive-news.html">Новости</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="navbar-text navbar-right text-right">
+						<div class="entry-tel"><a href="tel:+7 (495) 642-58-78" class="hidden-xs1 hidden-xs2 hidden-xs3"><span class="entry-number">+7 (495) 642-58-78</span></a><a href="tel:+7 (495) 642-58-78" class="btn btn-default-2 hidden-xs4 hidden-sm hidden-md hidden-lg"><span><i class="fa fa-phone fa-lg"></i></span></a></div>
+						<div class="entry-address">Летниковская улица 6а, стр. 2</div>
+						<div class="entry-social"><a href="https://www.facebook.com/skalatoria/" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-facebook"></i></a><a href="https://vk.com/public16849431" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-vk"></i></a><a href="" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-twitter"></i></a><a href="https://www.instagram.com/skalatoria/" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main id="main">
+			<div id="header" class="header center tab-content">
+				<div class="entry-header">
+					<div class="container">
+						<div role="group" aria-label="..." class="btn-group pull-right hidden-xs"><a href="#contacts_address" aria-controls="contacts_address" role="tab" data-toggle="tab" class="btn btn-default-4 btn-lg bg-dark-1 active">Как найти</a><a href="#contacts_map" aria-controls="contacts_map" role="tab" data-toggle="tab" class="btn btn-default-4 btn-lg">Карта</a></div><a id="map_show" href="#" data-toggle="button" aria-pressed="false" class="btn btn-default-4 btn-circle pull-right hidden-sm hidden-md hidden-lg"><i class="fa fa-map-marker fa-lg"></i></a>
+					</div>
+				</div>
+				<div id="map2" class="entry-map"></div>
+				<div id="contacts_address" role="tabpanel" class="tab-pane fade bg-dark in active">
+					<div class="container">
+						<div class="entry-header">
+							<div class="row">
+								<div class="col-sm-7 col-md-6 col-lg-7">
+									<h1 class="entry-title">Летниковская улица дом 6а, строение 2</h1>
+								</div>
+							</div>
+						</div>
+						<div class="entry-content">
+							<div class="panel panel-contacts panel-empty">
+								<div class="panel-body">
+									<address>
+										<div class="entry-tel"><i class="fa fa-phone fa-lg"></i><a href="tel:+7 (495) 642-58-78">+7 (495) 642-58-78</a></div>
+										<div class="entry-email"><i class="fa fa-envelope-o fa-lg"></i><a href="mailto:info@skalatoria.ru">info@skalatoria.ru</a></div>
+									</address>
+								</div>
+							</div>
+							<div class="form-header">
+								<div class="form-title"><i class="fa fa-pencil fa-lg"></i>Свяжитесь с нами</div>
+								<p class="help-block">Все поля должны быть заполнены.</p>
+							</div>
+							<form>
+								<div class="row">
+									<div class="col-sm-5">
+										<div class="form-group">
+											<input type="text" id="feedback_name" placeholder="Ваше имя" class="form-control">
+										</div>
+										<div class="form-group">
+											<input type="tel" id="feedback_tel" placeholder="Ваш телефон" class="form-control">
+										</div>
+										<div class="form-group">
+											<input type="email" id="feedback_email" placeholder="Вашй Email адрес" class="form-control">
+										</div>
+										<div class="form-group">
+											<textarea id="feedback_message" name="feedback_message" rows="5" placeholder="Ваше сообщение" class="form-control"></textarea>
+										</div>
+										<button type="submit" class="btn btn-default-4 btn-lg">Отправить</button>
+									</div>
+									<div class="col-sm-5 col-sm-offset-2">
+										<div class="entry-description"><p>Въезд на территорию ОАО "Комплект" платный!<br>Для клиентов скалодрома "Скалатория" стоимость парковки составляет <strong>50 рублей в час</strong> (первый и неполный час также оплачиваются). Оплата производится у администратора скалодрома!</p><p>Вход на территорию через проходную ОАО «Комплект», далее через дворик по указателям.</p></div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div id="contacts_map" role="tabpanel" class="tab-pane fade"></div>
+			</div>
+		</main>
+		<div id="modals">
+			<div id="modal-navbar" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade center">
+				<div class="modal-header">
+					<div class="container">
+						<button type="button" data-dismiss="modal" aria-hidden="true" class="btn btn-default-2 pull-right"><i class="fa fa-times fa-lg"></i></button>
+					</div>
+				</div>
+				<div class="modal-dialog modal-sm">
+					<div class="modal-content">
+						<div class="navbar navbar-default">
+							<div class="navbar-collapse">
+								<ul class="nav navbar-nav">
+									<li class="dropdown"><a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle"><span>О нас</span><span><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="about-climbing-wall.html">О скалодроме</a></li>
+											<li><a href="about-team.html">Команда</a></li>
+											<li><a href="about-gallery.html">Галерея</a></li>
+										</ul>
+									</li>
+									<li class="dropdown"><a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle"><span>Скалодром</span><span><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="info-first-time.html">Первый раз</a></li>
+											<li><a href="info-climbing.html">Скалолазание</a></li>
+											<li><a href="info-training.html">Тренировки</a></li>
+											<li><a href="info-services-and-prices.html">Услуги и цены</a></li>
+											<li><a href="info-schedule.html">Расписание</a></li>
+											<li><a href="info-rules-and-safety.html">Правила и Техника безопасности</a></li>
+										</ul>
+									</li>
+									<li class="dropdown"><a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle"><span>События</span><span><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="archive-events.html">Все события</a></li>
+											<li><a href="events-competitions.html">Соревнования</a></li>
+											<li><a href="events-travels.html">Путешествия</a></li>
+											<li><a href="events-reports.html">Отчеты</a></li>
+										</ul>
+									</li>
+									<li><a href="archive-news.html">Новости</a></li>
+									<li><a href="contacts.html">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer" class="site-footer">
+			<div class="container-bg"></div>
+			<div class="container-container-bg">
+				<div class="container">
+					<div class="row row-inline row-inline-middle">
+						<div class="col-xs-12 col-md-4">
+							<div class="entry-header">
+								<div class="row row-inline">
+									<div class="col-xs-12 col-md-6"><a href="/" class="footer-brand">
+											<div class="logo logo-colorful"></div></a></div>
+									<div class="col-xs-12 col-md-5 col-md-offset-1">
+										<div class="entry-menu">
+											<ul class="list-unstyled hidden-xs">
+												<li><a href="about-climbing-wall.html">О нас</a></li>
+												<li><a href="info-first-time.html">Скалодром</a></li>
+												<li><a href="archive-events.html">События</a></li>
+												<li><a href="archive-news.html">Новости</a></li>
+												<li><a href="contacts.html">Контакты</a></li>
+											</ul>
+											<button type="button" data-toggle="modal" data-target="#modal-navbar" aria-expanded="false" aria-controls="navbar" class="btn btn-default btn-lg hidden-sm hidden-md hidden-lg"><span class="text-bar">Меню</span><i class="fa fa-bars fa-lg"></i><span class="sr-only">Toggle navigation</span></button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-8">
+							<div class="row">
+								<div class="col-xs-12 col-xs4-5 col-sm-5 col-md-4">
+									<div id="social" class="secondary">
+										<div class="page-header"><span class="entry-title">Мы в соц. сетях</span></div>
+										<div class="entry-social"><a href="https://www.facebook.com/skalatoria/" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-facebook"></i></a><a href="https://vk.com/public16849431" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-vk"></i></a><a href="" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-twitter"></i></a><a href="https://www.instagram.com/skalatoria/" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-instagram"></i></a>
+										</div>
+									</div>
+									<hr class="hidden-xs hidden-sm hidden-md hidden-lg">
+								</div>
+								<div class="col-xs-12 col-xs4-7 col-sm-7 col-md-8">
+									<div id="partners" class="secondary">
+										<div class="page-header"><span class="entry-title">Наши партнеры</span></div>
+										<div class="entry-content">
+											<ul class="list-unstyled list-inline list-justify">
+												<li class="col-max-3"><a href="http://www.bandbclimbing.ru"><img src="images/partner_1.png" alt=""/></a></li>
+												<li class="col-max-3"><a href="http://bouldermania-lietlahti.blogspot.ru"><img src="images/partner_2.png" alt=""/></a></li>
+												<li class="col-max-3"><a href="http://sport-marafon.ru"><img src="images/partner_3.png" alt=""/></a></li>
+												<li class="col-max-3"><a href="http://www.shvana.ru"><img src="images/partner_4.png" alt=""/></a></li>
+												<li class="list-justify-helper"></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="entry-footer">
+						<div class="row">
+							<div class="col-xs4-6 col-sm-8"><span class="copyright">© 2009–2015 <a href="index.html">Скалодром «Скалатория»</a></span><span class="privacy"><a href="privacy.html">Политика конфиденциальности</a></span></div>
+							<div class="col-xs4-6 col-sm-4"><span class="development">Разработка сайта: <a href="http://ruslangallo.com" target="_blank"><span>Руслан Галло</span></a></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+				<!-- Scripts-->
+		<script type="text/javascript" src="js/vendor.min.js"></script>
+		<script type="text/javascript" src="//api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+		<script type="text/javascript" src="js/script.min.js"></script>
+	</body>
+</html>

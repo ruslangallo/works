@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Поиск | Скалатория</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<!-- Styles-->
+		<link rel="stylesheet" type="text/css" href="css/vendor.min.css" media="all">
+		<link rel="stylesheet" type="text/css" href="css/style.min.css" media="all">
+		<!-- Scripts-->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	</head>
+	<body class="fuelux search">
+		<header>
+			<nav role="banner" class="navbar navbar-default navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="btn btn-default-2 btn-p-1 navbar-toggle navbar-left collapsed hidden-xs"><span class="text-bar">Меню</span><i class="fa fa-bars fa-lg"></i><span class="sr-only">Toggle navigation</span></button>
+						<button type="button" data-toggle="modal" data-target="#modal-navbar" aria-expanded="false" aria-controls="navbar" class="btn btn-default-2 btn-circle navbar-toggle navbar-left collapsed hidden-sm hidden-md hidden-lg"><i class="fa fa-bars fa-lg"></i><span class="sr-only">Toggle navigation</span></button><a href="index.html" class="navbar-brand">
+							<div class="logo"></div></a><a href="index.html" class="navbar-brand navbar-brand-text hidden-xs hidden-sm hidden-md">
+							<div class="logo-name"></div></a>
+					</div>
+					<!-- .site-branding-->
+					<div id="navbar" class="collapse navbar-collapse hidden-xs">
+						<ul class="nav navbar-nav">
+							<li class="dropdown"><a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle"><span>О нас</span><span><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="about-climbing-wall.html">О скалодроме</a></li>
+									<li><a href="about-team.html">Команда</a></li>
+									<li><a href="about-gallery.html">Галерея</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"><a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle"><span>Скалодром</span><span><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="info-first-time.html">Первый раз</a></li>
+									<li><a href="info-climbing.html">Скалолазание</a></li>
+									<li><a href="info-training.html">Тренировки</a></li>
+									<li><a href="info-services-and-prices.html">Услуги и цены</a></li>
+									<li><a href="info-schedule.html">Расписание</a></li>
+									<li><a href="info-rules-and-safety.html">Правила и Техника безопасности</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"><a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle"><span>События</span><span><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="archive-events.html">Все события</a></li>
+									<li><a href="events-competitions.html">Соревнования</a></li>
+									<li><a href="events-travels.html">Путешествия</a></li>
+									<li><a href="events-reports.html">Отчеты</a></li>
+								</ul>
+							</li>
+							<li><a href="archive-news.html">Новости</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="navbar-text navbar-right text-right">
+						<div class="entry-tel"><a href="tel:+7 (495) 642-58-78" class="hidden-xs1 hidden-xs2 hidden-xs3"><span class="entry-number">+7 (495) 642-58-78</span></a><a href="tel:+7 (495) 642-58-78" class="btn btn-default-2 hidden-xs4 hidden-sm hidden-md hidden-lg"><span><i class="fa fa-phone fa-lg"></i></span></a></div>
+						<div class="entry-address">Летниковская улица 6а, стр. 2</div>
+						<div class="entry-social"><a href="https://www.facebook.com/skalatoria/" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-facebook"></i></a><a href="https://vk.com/public16849431" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-vk"></i></a><a href="" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-twitter"></i></a><a href="https://www.instagram.com/skalatoria/" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main id="main">
+			<div class="jumbotron">
+				<div style="background-image: url(images/bg_search.png);" class="entry-image fill fill-dark fill-quality hidden-xs"></div>
+				<div style="background-image: url(images/bg_search_xs.png);" class="entry-image fill fill-dark fill-quality hidden-sm hidden-md hidden-lg"></div>
+				<div class="entry-caption">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9 col-lg-8">
+								<div class="page-header">
+									<h1 class="entry-title text-left">Поиск</h1>
+									<ol class="breadcrumb">
+										<li><a href="/">Главная</a></li>
+										<li class="active">Поиск</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="items" class="primary content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+							<div class="entry-header">
+								<div class="input-group">
+									<input type="text" placeholder="Поиск" class="form-control"><span class="input-group-btn">
+										<button type="button" class="btn btn-default-2"><span>Искать</span><i class="fa fa-chevron-right fa-lg"></i></button></span>
+								</div>
+							</div>
+							<div class="entry-items tab-content">
+								<div id="search_all" role="tabpanel" class="tab-pane fade in active">
+									<div class="item">
+										<div class="panel panel-default panel-page">
+											<div class="panel-body">
+												<div class="entry-caption">
+													<h3 class="panel-title">Первый раз</h3>
+													<div class="entry-description">Я хочу попробовать. С чего мне начать? Скалодром Скалатория предлагает несколько вариантов попробовать сделать свой первый шаг в скалолазании: 1. Пробные подъёмы — самый простой и быстрый способ попробовать скалолазание. 3 подъёма на...</div>
+												</div>
+												<div class="entry-footer"><a href="info-first-time.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-event">
+											<div class="panel-body">
+												<div class="row">
+													<div class="panel-image col-xs-12">
+														<div style="background-image: url(images/promo_4_xs.jpg);" class="entry-image fill"></div>
+													</div>
+													<div class="panel-caption col-xs-12">
+														<div class="entry-categories hidden-xs"><a href="events-travels.html" class="label label-success">Путешествия</a><a href="events-reports.html" class="label label-info">Отчеты</a>
+														</div>
+														<div class="entry-caption">
+															<div class="entry-meta">1 сентябрь 2015 — 14 сентябрь 2015</div>
+															<h3 class="panel-title">Lietlahti 2015</h3>
+															<div class="entry-categories hidden-sm hidden-md hidden-lg"><a href="events-travels.html" class="label label-success">Путешествия</a><a href="events-reports.html" class="label label-info">Отчеты</a>
+															</div>
+															<div class="entry-description">Отчет о поезке на новое пространство, для любителей лазать по камням, на границе России и Финляндии в Ленинградской области.</div>
+														</div>
+														<div class="entry-footer"><a href="page-event.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-page">
+											<div class="panel-body">
+												<div class="entry-caption">
+													<h3 class="panel-title">Скалолазание</h3>
+													<div class="entry-description">Заголовок второго уровня. Основным достоинством Скалатории является сплочённая и дружная команда скалодрома, состоящая из влюблённых в скалолазание людей.</div>
+												</div>
+												<div class="entry-footer"><a href="info-climbing.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-page">
+											<div class="panel-body">
+												<div class="entry-caption">
+													<h3 class="panel-title">Тренировки</h3>
+													<div class="entry-description">Заголовок второго уровня. Основным достоинством Скалатории является сплочённая и дружная команда скалодрома, состоящая из влюблённых в скалолазание людей.</div>
+												</div>
+												<div class="entry-footer"><a href="info-training.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-news">
+											<div class="panel-body">
+												<div class="row">
+													<div class="panel-image col-xs-12 col-md-5">
+														<div style="background-image: url(images/bg_news_1_xs.jpg);" class="entry-image fill"></div>
+													</div>
+													<div class="panel-caption col-xs-12 col-md-7">
+														<div class="entry-caption">
+															<div class="entry-meta">23 октября 2015</div>
+															<h3 class="panel-title">Rock Empire Challenge 2015</h3>
+															<div class="entry-description">Мы добавили в альбом, посвященный кубку Москвы по БОУЛДЕРИНГУ «Rock Empire Challenge 2015» МНОГО потрясающих фото от Алексея Деньгина! Там подготовка, квалификация, 1/2 и финал. Очень крутые фотографии! На очереди другие авторы!</div>
+														</div>
+														<div class="entry-footer"><a href="page-news.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-news">
+											<div class="panel-body">
+												<div class="row">
+													<div class="panel-image col-xs-12 col-md-5">
+														<div style="background-image: url(images/bg_news_2_xs.jpg);" class="entry-image fill"></div>
+													</div>
+													<div class="panel-caption col-xs-12 col-md-7">
+														<div class="entry-caption">
+															<div class="entry-meta">10 сентября 2015</div>
+															<h3 class="panel-title">Новый преподаватель по стретчингу</h3>
+															<div class="entry-description">Мария ведет стретчинг и body work уже более 10 лет. Поддерживает гибкий подход к обучению. В своем подходе к растяжке использует позитивные и безопасные методы растягивания, опираясь на опыт таких мировых практик, как йога, танцы, цигун, различные массажи, соматикс, метод Фельденкрайза "Осознование через движение".</div>
+														</div>
+														<div class="entry-footer"><a href="page-news.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-page">
+											<div class="panel-body">
+												<div class="entry-caption">
+													<h3 class="panel-title">Услуги и цены</h3>
+													<div class="entry-description">Входная плата. Разовое посещение. Будние дни утро (до 17:00) 300р. Будние дни вечер (с 17:00) 500р. Выходные и праздничные дни 500р. Детский билет 300р. Залог за ключ от шкафчика (возвращается при возврате клю...</div>
+												</div>
+												<div class="entry-footer"><a href="info-services-and-prices.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-page">
+											<div class="panel-body">
+												<div class="entry-caption">
+													<h3 class="panel-title">Расписание</h3>
+													<div class="entry-description">Время работы cкалодрома «Скалатория». Скалодром «Скалатория» 15:00 23:00* 8:00 23:00* 8:00 23:00* 8:00 23:00* 15:00 23:00* 10:00 22:00 10:00 22:00 * Скалодром необходимо освободить для начала уборки в 22.45, тренажер...</div>
+												</div>
+												<div class="entry-footer"><a href="info-schedule.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-page">
+											<div class="panel-body">
+												<div class="entry-caption">
+													<h3 class="panel-title">Правила и Техника безопасности</h3>
+													<div class="entry-description">Правила. Уважаемые посетители cкалодрома «Скалатория»! Скалодром — место, связанное с повышенной опасностью. Поэтому перед посещением скалодрома необходимо ознакомиться с Правилами посещения и Инструкцией по технике безопасно...</div>
+												</div>
+												<div class="entry-footer"><a href="info-rules-and-safety.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="search_events" role="tabpanel" class="tab-pane fade">
+									<div class="item">
+										<div class="panel panel-default panel-event">
+											<div class="panel-body">
+												<div class="row">
+													<div class="panel-image col-xs-12">
+														<div style="background-image: url(images/promo_4_xs.jpg);" class="entry-image fill"></div>
+													</div>
+													<div class="panel-caption col-xs-12">
+														<div class="entry-categories hidden-xs"><a href="events-travels.html" class="label label-success">Путешествия</a><a href="events-reports.html" class="label label-info">Отчеты</a>
+														</div>
+														<div class="entry-caption">
+															<div class="entry-meta">1 сентябрь 2015 — 14 сентябрь 2015</div>
+															<h3 class="panel-title">Lietlahti 2015</h3>
+															<div class="entry-categories hidden-sm hidden-md hidden-lg"><a href="events-travels.html" class="label label-success">Путешествия</a><a href="events-reports.html" class="label label-info">Отчеты</a>
+															</div>
+															<div class="entry-description">Отчет о поезке на новое пространство, для любителей лазать по камням, на границе России и Финляндии в Ленинградской области.</div>
+														</div>
+														<div class="entry-footer"><a href="page-event.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="search_news" role="tabpanel" class="tab-pane fade">
+									<div class="item">
+										<div class="panel panel-default panel-news">
+											<div class="panel-body">
+												<div class="row">
+													<div class="panel-image col-xs-12 col-md-5">
+														<div style="background-image: url(images/bg_news_1_xs.jpg);" class="entry-image fill"></div>
+													</div>
+													<div class="panel-caption col-xs-12 col-md-7">
+														<div class="entry-caption">
+															<div class="entry-meta">23 октября 2015</div>
+															<h3 class="panel-title">Rock Empire Challenge 2015</h3>
+															<div class="entry-description">Мы добавили в альбом, посвященный кубку Москвы по БОУЛДЕРИНГУ «Rock Empire Challenge 2015» МНОГО потрясающих фото от Алексея Деньгина! Там подготовка, квалификация, 1/2 и финал. Очень крутые фотографии! На очереди другие авторы!</div>
+														</div>
+														<div class="entry-footer"><a href="page-news.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-news">
+											<div class="panel-body">
+												<div class="row">
+													<div class="panel-image col-xs-12 col-md-5">
+														<div style="background-image: url(images/bg_news_2_xs.jpg);" class="entry-image fill"></div>
+													</div>
+													<div class="panel-caption col-xs-12 col-md-7">
+														<div class="entry-caption">
+															<div class="entry-meta">10 сентября 2015</div>
+															<h3 class="panel-title">Новый преподаватель по стретчингу</h3>
+															<div class="entry-description">Мария ведет стретчинг и body work уже более 10 лет. Поддерживает гибкий подход к обучению. В своем подходе к растяжке использует позитивные и безопасные методы растягивания, опираясь на опыт таких мировых практик, как йога, танцы, цигун, различные массажи, соматикс, метод Фельденкрайза "Осознование через движение".</div>
+														</div>
+														<div class="entry-footer"><a href="page-news.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="search_pages" role="tabpanel" class="tab-pane fade">
+									<div class="item">
+										<div class="panel panel-default panel-page">
+											<div class="panel-body">
+												<div class="entry-caption">
+													<h3 class="panel-title">Первый раз</h3>
+													<div class="entry-description">Я хочу попробовать. С чего мне начать? Скалодром Скалатория предлагает несколько вариантов попробовать сделать свой первый шаг в скалолазании: 1. Пробные подъёмы — самый простой и быстрый способ попробовать скалолазание. 3 подъёма на...</div>
+												</div>
+												<div class="entry-footer"><a href="info-first-time.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-page">
+											<div class="panel-body">
+												<div class="entry-caption">
+													<h3 class="panel-title">Скалолазание</h3>
+													<div class="entry-description">Заголовок второго уровня. Основным достоинством Скалатории является сплочённая и дружная команда скалодрома, состоящая из влюблённых в скалолазание людей.</div>
+												</div>
+												<div class="entry-footer"><a href="info-climbing.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-page">
+											<div class="panel-body">
+												<div class="entry-caption">
+													<h3 class="panel-title">Тренировки</h3>
+													<div class="entry-description">Заголовок второго уровня. Основным достоинством Скалатории является сплочённая и дружная команда скалодрома, состоящая из влюблённых в скалолазание людей.</div>
+												</div>
+												<div class="entry-footer"><a href="info-training.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-page">
+											<div class="panel-body">
+												<div class="entry-caption">
+													<h3 class="panel-title">Услуги и цены</h3>
+													<div class="entry-description">Входная плата. Разовое посещение. Будние дни утро (до 17:00) 300р. Будние дни вечер (с 17:00) 500р. Выходные и праздничные дни 500р. Детский билет 300р. Залог за ключ от шкафчика (возвращается при возврате клю...</div>
+												</div>
+												<div class="entry-footer"><a href="info-services-and-prices.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-page">
+											<div class="panel-body">
+												<div class="entry-caption">
+													<h3 class="panel-title">Расписание</h3>
+													<div class="entry-description">Время работы cкалодрома «Скалатория». Скалодром «Скалатория» 15:00 23:00* 8:00 23:00* 8:00 23:00* 8:00 23:00* 15:00 23:00* 10:00 22:00 10:00 22:00 * Скалодром необходимо освободить для начала уборки в 22.45, тренажер...</div>
+												</div>
+												<div class="entry-footer"><a href="info-schedule.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="panel panel-default panel-page">
+											<div class="panel-body">
+												<div class="entry-caption">
+													<h3 class="panel-title">Правила и Техника безопасности</h3>
+													<div class="entry-description">Правила. Уважаемые посетители cкалодрома «Скалатория»! Скалодром — место, связанное с повышенной опасностью. Поэтому перед посещением скалодрома необходимо ознакомиться с Правилами посещения и Инструкцией по технике безопасно...</div>
+												</div>
+												<div class="entry-footer"><a href="info-rules-and-safety.html" class="btn btn-link"><span>Подробнее</span><i class="fa fa-chevron-right fa-lg"></i></a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="entry-sidebar entry-sidebar-right">
+								<div class="navbar navbar-default">
+									<div class="navbar-collapse navbar-collapse-in">
+										<ul role="tablist" class="nav nav-pills nav-stacked">
+											<li role="presentation" class="active"><a href="#search_all" aria-controls="search_all" role="tab" data-toggle="tab">Все</a></li>
+											<li role="presentation"><a href="#search_events" aria-controls="search_events" role="tab" data-toggle="tab">Мероприятия</a></li>
+											<li role="presentation"><a href="#search_news" aria-controls="search_news" role="tab" data-toggle="tab">Новости</a></li>
+											<li role="presentation"><a href="#search_pages" aria-controls="search_pages" role="tab" data-toggle="tab">Информация</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="entry-footer">
+								<nav>
+									<ul class="pagination">
+										<li><a href="#" aria-label="Previous" class="btn btn-lg btn-p-1 btn-default btn-angle"><i class="fa fa-chevron-left fa-lg"></i></a></li>
+										<li class="active"><a href="#" class="btn btn-lg btn-circle">1</a></li>
+										<li><a href="#" class="btn btn-lg btn-circle">2</a></li>
+										<li><a href="#" class="btn btn-lg btn-circle">3</a></li>
+										<li><a href="#" class="btn btn-lg btn-circle">4</a></li>
+										<li><a href="#" class="btn btn-lg btn-circle">5</a></li>
+										<li><a href="#" class="btn btn-lg btn-circle">6</a></li>
+										<li><a href="#" aria-label="Next" class="btn btn-lg btn-p-1 btn-default btn-angle"><i class="fa fa-chevron-right fa-lg"></i></a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div id="modals">
+			<div id="modal-navbar" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade center">
+				<div class="modal-header">
+					<div class="container">
+						<button type="button" data-dismiss="modal" aria-hidden="true" class="btn btn-default-2 pull-right"><i class="fa fa-times fa-lg"></i></button>
+					</div>
+				</div>
+				<div class="modal-dialog modal-sm">
+					<div class="modal-content">
+						<div class="navbar navbar-default">
+							<div class="navbar-collapse">
+								<ul class="nav navbar-nav">
+									<li class="dropdown"><a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle"><span>О нас</span><span><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="about-climbing-wall.html">О скалодроме</a></li>
+											<li><a href="about-team.html">Команда</a></li>
+											<li><a href="about-gallery.html">Галерея</a></li>
+										</ul>
+									</li>
+									<li class="dropdown"><a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle"><span>Скалодром</span><span><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="info-first-time.html">Первый раз</a></li>
+											<li><a href="info-climbing.html">Скалолазание</a></li>
+											<li><a href="info-training.html">Тренировки</a></li>
+											<li><a href="info-services-and-prices.html">Услуги и цены</a></li>
+											<li><a href="info-schedule.html">Расписание</a></li>
+											<li><a href="info-rules-and-safety.html">Правила и Техника безопасности</a></li>
+										</ul>
+									</li>
+									<li class="dropdown"><a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle"><span>События</span><span><i class="fa fa-chevron-up"></i><i class="fa fa-chevron-down"></i></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="archive-events.html">Все события</a></li>
+											<li><a href="events-competitions.html">Соревнования</a></li>
+											<li><a href="events-travels.html">Путешествия</a></li>
+											<li><a href="events-reports.html">Отчеты</a></li>
+										</ul>
+									</li>
+									<li><a href="archive-news.html">Новости</a></li>
+									<li><a href="contacts.html">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer" class="site-footer">
+			<div class="container-bg"></div>
+			<div class="container-container-bg">
+				<div class="container">
+					<div class="row row-inline row-inline-middle">
+						<div class="col-xs-12 col-md-4">
+							<div class="entry-header">
+								<div class="row row-inline">
+									<div class="col-xs-12 col-md-6"><a href="/" class="footer-brand">
+											<div class="logo logo-colorful"></div></a></div>
+									<div class="col-xs-12 col-md-5 col-md-offset-1">
+										<div class="entry-menu">
+											<ul class="list-unstyled hidden-xs">
+												<li><a href="about-climbing-wall.html">О нас</a></li>
+												<li><a href="info-first-time.html">Скалодром</a></li>
+												<li><a href="archive-events.html">События</a></li>
+												<li><a href="archive-news.html">Новости</a></li>
+												<li><a href="contacts.html">Контакты</a></li>
+											</ul>
+											<button type="button" data-toggle="modal" data-target="#modal-navbar" aria-expanded="false" aria-controls="navbar" class="btn btn-default btn-lg hidden-sm hidden-md hidden-lg"><span class="text-bar">Меню</span><i class="fa fa-bars fa-lg"></i><span class="sr-only">Toggle navigation</span></button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-8">
+							<div class="row">
+								<div class="col-xs-12 col-xs4-5 col-sm-5 col-md-4">
+									<div id="social" class="secondary">
+										<div class="page-header"><span class="entry-title">Мы в соц. сетях</span></div>
+										<div class="entry-social"><a href="https://www.facebook.com/skalatoria/" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-facebook"></i></a><a href="https://vk.com/public16849431" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-vk"></i></a><a href="" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-twitter"></i></a><a href="https://www.instagram.com/skalatoria/" target="_blank" class="btn btn-default-3 btn-circle"><i class="fa fa-lg fa-instagram"></i></a>
+										</div>
+									</div>
+									<hr class="hidden-xs hidden-sm hidden-md hidden-lg">
+								</div>
+								<div class="col-xs-12 col-xs4-7 col-sm-7 col-md-8">
+									<div id="partners" class="secondary">
+										<div class="page-header"><span class="entry-title">Наши партнеры</span></div>
+										<div class="entry-content">
+											<ul class="list-unstyled list-inline list-justify">
+												<li class="col-max-3"><a href="http://www.bandbclimbing.ru"><img src="images/partner_1.png" alt=""/></a></li>
+												<li class="col-max-3"><a href="http://bouldermania-lietlahti.blogspot.ru"><img src="images/partner_2.png" alt=""/></a></li>
+												<li class="col-max-3"><a href="http://sport-marafon.ru"><img src="images/partner_3.png" alt=""/></a></li>
+												<li class="col-max-3"><a href="http://www.shvana.ru"><img src="images/partner_4.png" alt=""/></a></li>
+												<li class="list-justify-helper"></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="entry-footer">
+						<div class="row">
+							<div class="col-xs4-6 col-sm-8"><span class="copyright">© 2009–2015 <a href="index.html">Скалодром «Скалатория»</a></span><span class="privacy"><a href="privacy.html">Политика конфиденциальности</a></span></div>
+							<div class="col-xs4-6 col-sm-4"><span class="development">Разработка сайта: <a href="http://ruslangallo.com" target="_blank"><span>Руслан Галло</span></a></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+				<!-- Scripts-->
+		<script type="text/javascript" src="js/vendor.min.js"></script>
+		<script type="text/javascript" src="//api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+		<script type="text/javascript" src="js/script.min.js"></script>
+	</body>
+</html>
