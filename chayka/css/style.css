@@ -1,0 +1,129 @@
+/*!
+ * Author: Ruslan Gallo
+ * Author URL: http://ruslangallo.com
+ */
+html {
+  -webkit-text-size-adjust: 100%;
+  position: relative;
+  min-height: 100%; }
+
+body {
+  min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+.home main {
+  height: 100%; }
+
+img {
+  max-width: 100%; }
+
+.navbar {
+  z-index: 2; }
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    float: none; } }
+
+.navbar-toggler {
+  border: none;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+  .navbar-toggler, .navbar-toggler:focus {
+    outline: none; }
+
+.navbar-header .navbar-nav {
+  width: 100%; }
+  .navbar-header .navbar-nav .nav-item {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
+.navbar-footer {
+  min-height: 54px;
+  font-size: 14px; }
+
+.jumbotron-full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%; }
+
+.home .jumbotron {
+  margin-bottom: 0; }
+
+/*
+Carousel for Gallery
+*/
+.carousel-for-gallery {
+  width: 100%;
+  margin-top: 30px;
+  min-height: 320px;
+  height: calc(100vh - 138px);
+  overflow: hidden; }
+  .carousel-for-gallery .carousel-inner {
+    height: calc(100% - 115px); }
+    .carousel-for-gallery .carousel-inner, .carousel-for-gallery .carousel-inner .carousel-item {
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .carousel-for-gallery .carousel-inner .carousel-item {
+      height: 100%; }
+  .carousel-for-gallery .carousel-item {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .carousel-for-gallery .carousel-indicators {
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    bottom: 0;
+    margin: 0;
+    height: 95px;
+    padding-bottom: 15px;
+    justify-content: none;
+    -webkit-box-pack: none;
+    text-align: left;
+    font-size: 0; }
+    .carousel-for-gallery .carousel-indicators li {
+      font-size: 1rem;
+      display: inline-block;
+      -webkit-box-flex: 0;
+              flex: none;
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      max-width: calc(12.5% - 7 / 8 * 0px);
+      height: 100%;
+      margin: 0 0px 0 0;
+      text-indent: 0;
+      background-color: #eceeef; }
+      .carousel-for-gallery .carousel-indicators li:last-child {
+        margin: 0; }
+      .carousel-for-gallery .carousel-indicators li:nth-child(7) {
+        background-color: transparent; }
+      .carousel-for-gallery .carousel-indicators li p {
+        position: absolute;
+        display: block;
+        font-weight: bold;
+        margin-bottom: 0;
+        bottom: 0;
+        right: 0.5rem;
+        top: inherit; }
+  .carousel-for-gallery .jumbotron {
+    position: absolute;
+    bottom: 0;
+    background: none;
+    max-width: 50%; }
+    .carousel-for-gallery .jumbotron-left {
+      left: 0; }
+    .carousel-for-gallery .jumbotron-right {
+      right: 0; }
+
+.copyright {
+  margin-right: 1rem; }
